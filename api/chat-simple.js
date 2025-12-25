@@ -1,7 +1,7 @@
 const { OpenAI } = require('openai');
 const { PUNE_CONTEXT } = require('../pune-context');
 
-async function handler(req, res) {
+export default async function handler(req, res) {
     // Enable CORS
     res.setHeader('Access-Control-Allow-Credentials', true);
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -74,5 +74,3 @@ async function handler(req, res) {
         });
     }
 }
-
-module.exports = { default: handler };

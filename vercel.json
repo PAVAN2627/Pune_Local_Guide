@@ -1,7 +1,13 @@
 {
   "functions": {
-    "api/chat.js": {
-      "runtime": "nodejs18.x"
+    "api/chat-simple.js": {
+      "runtime": "@vercel/node@3.0.7"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/api/chat",
+      "destination": "/api/chat-simple"
+    }
+  ]
 }
