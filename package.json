@@ -1,0 +1,28 @@
+{
+  "name": "pune-local-guide",
+  "version": "1.0.0",
+  "description": "AI-powered local guide for Pune with city-specific cultural context",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "vercel build",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.0"
+  },
+  "keywords": [
+    "pune",
+    "local-guide",
+    "ai",
+    "culture",
+    "students"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

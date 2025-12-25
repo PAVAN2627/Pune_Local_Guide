@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pune Local Guide - Your AI Punekar Buddy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Pune Local Guide</h1>
+            <p class="tagline">Tumcha AI Punekar Dost - Sagla Pune mahiti ithech!</p>
+            <div class="pune-badges">
+                <span class="badge">Street Food Expert</span>
+                <span class="badge">Student Helper</span>
+                <span class="badge">Traffic Guide</span>
+                <span class="badge">Local Bhasha</span>
+            </div>
+        </header>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message welcome-message">
+                    <div class="message-content">
+                        <div class="welcome-header">
+                            <strong>🙏 Namaskar boss!</strong>
+                            <span class="pune-flag">🚩</span>
+                        </div>
+                        <p>Mi tumcha local Pune guide! Kasa kay? 😊</p>
+                        <p>Street food, college area, local bhasha, kuthe pan janar - <strong>sagla sangto mi!</strong></p>
+                        <p>Ekdum Punekar style madhe bolto, chala na kahi vichar! 🏙️</p>
+                        <div class="welcome-features">
+                            <span class="feature">🍛 Khana-peena</span>
+                            <span class="feature">🎓 College life</span>
+                            <span class="feature">🚗 Traffic tips</span>
+                            <span class="feature">💬 Local bhasha</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    placeholder="Kahi vichar boss... (e.g., 'FC Road la best vada pav kuthe milel?')"
+                    maxlength="500"
+                >
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+
+        <div class="quick-suggestions">
+            <h3>🤔 Kahi vichar aahe ka? Try these:</h3>
+            <div class="suggestion-buttons">
+                <button class="suggestion-btn" data-question="FC Road la best street food kuthe milel?">
+                    🍛 <span>Street Food</span>
+                </button>
+                <button class="suggestion-btn" data-question="Kay re mhanje kay?">
+                    💬 <span>Local Bhasha</span>
+                </button>
+                <button class="suggestion-btn" data-question="Kothrud to Hinjewadi traffic kasa aahe?">
+                    🚗 <span>Traffic Info</span>
+                </button>
+                <button class="suggestion-btn" data-question="Students sathi cheap jagah kuthe aahe?">
+                    🎓 <span>Student Life</span>
+                </button>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>🧡 Made with प्रेम for Pune | Powered by AI with local context 🏛️</p>
+            <p style="font-size: 12px; margin-top: 5px; opacity: 0.8;">
+                Kiro Week 5 Challenge - The Local Guide | Context-driven AI responses
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

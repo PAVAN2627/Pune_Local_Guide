@@ -1,0 +1,25 @@
+{
+  "name": "Pune Local Guide",
+  "description": "AI-powered local guide for Pune with authentic Marathi cultural context",
+  "version": "1.0.0",
+  "challenge": "Week 5 - The Local Guide",
+  "theme": "Local Culture Understanding",
+  "city": "Pune, Maharashtra",
+  "language": "Marathi (Romanized)",
+  "target_users": ["Students", "First-time visitors", "Newcomers to Pune"],
+  "key_features": [
+    "Local slang interpretation",
+    "Street food recommendations",
+    "Student-centric guidance", 
+    "Traffic and transport advice",
+    "Cultural context understanding"
+  ],
+  "innovation": "Context engineering approach using curated local knowledge instead of real-time APIs",
+  "tech_stack": {
+    "frontend": "HTML, CSS, JavaScript",
+    "backend": "Node.js (Serverless)",
+    "ai": "Azure OpenAI GPT-4.1",
+    "deployment": "Vercel",
+    "context": "Custom Pune knowledge base"
+  }
+}
