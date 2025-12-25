@@ -4,10 +4,8 @@
   "description": "AI-powered local guide for Pune with city-specific cultural context",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js",
-    "build": "vercel build",
-    "deploy": "vercel"
+    "dev": "node server-simple.js",
+    "start": "node server-simple.js"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
