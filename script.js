@@ -38,7 +38,7 @@ class PuneGuide {
         const loadingId = this.addLoadingMessage();
 
         try {
-            const response = await fetch('/api/chat', {
+            const response = await fetch('/api/chat-simple', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

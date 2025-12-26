@@ -95,5 +95,3 @@ Bad response: "Here are the top 5 vada pav places: 1. FC Road 2. JM Road..." (Do
 `;
 
 module.exports = { PUNE_CONTEXT };
-
-module.exports = { PUNE_CONTEXT };
