@@ -5,20 +5,26 @@ Pune Local Guide is an AI-powered local assistant that understands Pune's cultur
 
 ## Problem Statement
 Generic AI assistants lack local cultural context and speak in formal, non-regional language. Students and newcomers to Pune need a guide that:
-- Speaks like a local Punekar in Marathi (romanized)
-- Understands local slang and expressions
-- Knows specific areas, street food culture, and student life
-- Provides contextual, conversational responses
+- **Understands multiple languages** (English, Hindi, Marathi) and responds accordingly
+- **Speaks authentically** in the user's preferred language with local expressions
+- **Knows specific areas**, street food culture, and student life
+- **Provides contextual, conversational responses** rather than generic information
 
 ## Solution Approach
-Instead of using real-time APIs or external data sources, we use **context engineering** - a curated knowledge base that teaches the AI to respond authentically like a local Pune resident.
+Instead of using real-time APIs or external data sources, we use **multilingual context engineering** - a curated knowledge base that teaches the AI to:
+- **Detect user's language** automatically (English, Hindi, or Marathi)
+- **Respond in the same language** with authentic local expressions
+- **Maintain cultural context** across all supported languages
+- **Provide region-specific knowledge** regardless of language used
 
 ## Local Context Knowledge Base
 
 ### Language & Communication Style
-- **Primary Language**: Marathi written in English letters (romanized)
+- **Multilingual Support**: English, Hindi, and Marathi (romanized)
+- **Language Detection**: Automatically identifies user's input language
+- **Native Responses**: Responds in the same language as user input
 - **Tone**: Conversational, friendly, like talking to a local friend
-- **Address Style**: "boss", "dost", "yaar", "re"
+- **Address Style**: Language-appropriate terms ("friend/buddy", "dost/yaar", "boss/re")
 
 ### Authentic Punekar Expressions
 ```

@@ -6,17 +6,20 @@ This is a submission for Kiro Week 5 Challenge: "The Local Guide". The goal is t
 ## Key Requirements Met
 ✅ **Theme Alignment**: "The Local Guide" - AI understands Pune local culture  
 ✅ **Custom Context**: Uses `product.md` and `pune-context.js` for local knowledge  
-✅ **Cultural Understanding**: Responds in Marathi (romanized) like a local  
+✅ **Multilingual Support**: Responds in English, Hindi, or Marathi based on user input  
+✅ **Cultural Understanding**: Authentic expressions and local context in all languages  
 ✅ **Specific Focus**: Pune city with student-centric approach  
 ✅ **No External APIs**: Pure context-driven responses  
 
 ## Development Guidelines
 
 ### Language Style
-- Primary language: Marathi written in English letters
+- **Multilingual Support**: English, Hindi, and Marathi (romanized)
+- **Language Detection**: Automatically detect user's input language
+- **Native Responses**: Respond in the same language as user input
 - Conversational tone, not formal or informational
-- Use authentic Punekar expressions naturally
-- Address users as "boss", "dost", "yaar"
+- Use authentic expressions naturally in each language
+- Address users appropriately per language ("friend", "dost/yaar", "boss/re")
 
 ### Response Pattern
 - Give specific, contextual answers to user queries
@@ -48,11 +51,21 @@ pune-local-guide/
 ```
 
 ## Testing Scenarios
-Test with these authentic Pune queries:
+Test with these queries in multiple languages:
+
+**English:**
+- "Best places to visit in one day?"
+- "Where can I find good street food?"
+- "What's the PG rent in Kothrud?"
+
+**Hindi:**
+- "Ek din mein ghoomne ki jagah bata do"
+- "Sabse accha khana kahan milta hai?"
+- "Kothrud mein PG ka rent kitna hai?"
+
+**Marathi:**
 - "FC Road la best vada pav kuthe milel?"
 - "Kothrud madhe PG kiti rent aahe?"
-- "Hinjewadi la traffic kasa aahe?"
-- "Kay re mhanje kay?"
 - "Students sathi cheap jagah kuthe aahe?"
 
 ## Deployment Notes
@@ -62,8 +75,9 @@ Test with these authentic Pune queries:
 - Environment variables for API keys
 
 ## Success Criteria
-- Responses feel authentic and local
-- Language is natural Marathi (romanized)
-- Answers are specific to user questions
-- Cultural context is accurate
-- User experience is conversational and helpful
+- **Language Detection**: Correctly identifies user's input language
+- **Native Responses**: Responds authentically in the detected language
+- **Cultural Context**: Maintains Pune local knowledge across all languages
+- **Conversational Flow**: Natural, friendly interactions in any language
+- **Specific Answers**: Contextual responses, not generic information
+- **User Experience**: Inclusive and helpful for diverse linguistic backgrounds
